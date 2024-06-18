@@ -1,0 +1,177 @@
+/* Reset default margin, padding, and box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #13111c;
+}
+
+/* Container to center content */
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header styles */
+.header {
+  align-items: center;
+  border: 2px solid #2a2832;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top: none;
+  display: flex;
+  justify-content: space-between; /* Updated to space-between */
+  padding: 12px 20px;
+}
+
+/* Logo styles */
+.logo {
+  width: 80px; /* Adjust size as needed */
+  height: 80px; /* Adjust size as needed */
+  border-radius: 50%;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #2a2832; /* Added border styling */
+}
+
+/* Header content styles */
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Added gap between logo and title */
+}
+
+/* Title styles */
+.title {
+  font-size: 25px;
+  font-weight: auto;
+  margin-bottom: 10px;
+  text-align: center; /* Align title to the right */
+}
+
+/* Subtitle styles */
+.subtitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: whitesmoke;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Buttons container */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Button styles */
+.button, .coming-soon, .play-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button {
+  background-color: #fff;
+  color: #121212;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+
+.coming-soon {
+  background-color: #9966ff;
+  color: #fff;
+}
+
+.coming-soon:hover {
+  background-color: #774dff;
+}
+
+.play-button {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 15px 25px; /* Adjusted padding */
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 200px; /* Added max-width */
+}
+
+.play-button:hover {
+  background-color: #3367d6;
+}
+
+/* Logos container */
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Individual logo item */
+.logo-item {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Description paragraph */
+.description {
+  font-size: 18px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* Footer styles */
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Footer link styles */
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #9966ff;
+}
+
+/* SVG icon styles */
+.icon.icon-info,
+.icon.icon-info svg {
+  height: 20px;
+  width: 20px;
+}
